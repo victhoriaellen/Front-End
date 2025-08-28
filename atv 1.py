@@ -17,7 +17,6 @@ for i in range(1, 16):
         print("Gênero inválido! Considerando como 'F'.")
         qtd_feminino += 1
 
-# Resultados
 maior_altura = max(alturas)
 menor_altura = min(alturas)
 
@@ -31,3 +30,4 @@ print(f"A maior altura do grupo: {maior_altura:.2f} m")
 print(f"A menor altura do grupo: {menor_altura:.2f} m")
 print(f"A média de altura dos homens: {media_masculino:.2f} m")
 print(f"O número de mulheres: {qtd_feminino}")
+
